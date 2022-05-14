@@ -1,0 +1,25 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(FS-NokioMedium.ttf);
+}
+  
+.logo {
+  display:flex; flex-direction:row; justify-content:center;
+}
+
+.company {
+    font-family: myFirstFont;
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    height: 66px;
+}
+
+.symbol {
+    font-family: myFirstFont;
+    color: blue;
+    font-size: 45px;
+    line-height: 45px;
+    border:  8px solid black;
+    height: 65px;
+}
